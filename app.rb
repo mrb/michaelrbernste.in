@@ -1,5 +1,5 @@
 require 'sinatra' 
 
 get '/' do 
-  render 'index.html' 
+  redirect 'index.html' 
 end
